@@ -10,3 +10,6 @@ A guide to programming nRF52 series devices in production, along with test cases
 
 ## [Reference Hardware Design Files](http://www.nordicsemi.com/eng/nordic/download_resource/50980/3/35868157)
 *  May provide some guidance for pin connections etc...
+
+## Programming process high-level flow
+![Programming Process](https://github.com/NordicSemiconductor/nrf52-production-programming/blob/master/resources/programming_process.png)
