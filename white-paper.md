@@ -108,13 +108,14 @@ The ranges of writeable addresses are:
 Different methods can be used to write flash. For the nRF52 a good flash algorithm should take around 10 seconds to write the entire flash. If you are not able to reach this time please contact us for assistance.
 
 #### 1.5 Verify (optional)
-To verify the contents of flash use the standard SWD ARM™ CoreSight DAP protocol:
+To verify the contents of flash after programming use the standard SWD ARM™ CoreSight DAP protocol:
 *  Read every address written and compare with the expected value.
-Important: It is possible that the hex file being programmed will enable access port (read-back) protection that will make it impossible to verify the contents of flash. This protection will only take effect after a reset is applied. Make sure not to reset between steps 4.7 Write data and 4.8 Verify.
+Important: It is possible that the hex file being programmed will enable access port (read-back) protection that will make it impossible to verify the contents of flash. This protection will only take effect after a reset is applied. Make sure not to reset between steps 1.4 (Write data) and 1.5 (Verify).
 
 #### 1.6 Disconnect
-Use the standard SWD ARM™ CoreSight DAP interface to disable debugger interface mode.
-Note that here we assume you are programming a bare IC. There needs to be a hard reset after programming which can only be guaranteed by a power cycle. This is needed to take the device out of debug interface mode as well as other things. When programming a bare IC there is a guaranteed power cycle so there is no need to worry about this.
+Use the standard SWD ARM™ CoreSight DAP interface to disable debugger interface mode.  
+
+Note: We assume you are programming a bare IC. There needs to be a hard reset after programming which can only be guaranteed by a power cycle. This is needed to take the device out of debug interface mode as well as other things. When programming a bare IC there is a guaranteed power cycle so there is no need to worry about this.
 
 #### Conclusion
 Some things to think about:
