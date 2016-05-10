@@ -1,3 +1,6 @@
 # Keil uVision specific ignores.
 Listings/
 Objects/
+JLinkLog.txt
+*.uvguix.*
+*.uvoptx
