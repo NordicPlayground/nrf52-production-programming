@@ -2,7 +2,7 @@
 A guide to programming nRF52 series devices in production, along with test cases to verify implementation. For detailed information on the programming process, see white-paper.md.
 
 # Before reading this guide
-Know your options, we are partnered with [Elnec](http://www.elnec.com/), [Hi-Lo](http://www.hilo.systems/), and [SEGGER](https://www.segger.com/production-programmers.html) and they fully support programming nRF52 series devices in production.
+Know your options before spending time & money to implement this yourself. We are partnered with [Elnec](http://www.elnec.com/), [Hi-Lo](http://www.hilo.systems/), and [SEGGER](https://www.segger.com/production-programmers.html) and they fully support programming nRF52 series devices in production.
 
 ###### Elnec
 *  [Production Programmers](http://www.elnec.com/en/products/production-programmers/). Gang programmers and in system programmers (ISP).
@@ -15,6 +15,9 @@ Know your options, we are partnered with [Elnec](http://www.elnec.com/), [Hi-Lo]
 
 ###### SEGGER
 *  [Production Programmers](https://www.segger.com/production-programmers.html). ISP programmers that program one device at a time. Ease the implementation into a production site by allowing the flash programming to be triggered manually or remotely.
+
+## Still want to implement your own programming tool?
+Then read on...
 
 ## [nRF52 Product Specification](https://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52832_ps.html?cp=1_3_0)
 *  CPU, Memory, NVMC, BPROT, UICR, DIF are important sections to read.
