@@ -4,4 +4,4 @@ A guide to programming nRF52 series devices in production, along with test cases
 ## Test cases
 *  Provided tests in this repository will help verify that your programming algorithms cover important edge cases (not complete test coverage by any means). They are intended to help you catch the most common mistakes when programming nRF5 devices in production. They will be added over time.
 
-## Feel free to open issues and as questions here along with [Nordic's devzone](https://devzone.nordicsemi.com/questions/).
+## Feel free to open issues and ask questions here, or at [Nordic's devzone](https://devzone.nordicsemi.com/questions/).
